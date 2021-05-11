@@ -1,5 +1,5 @@
-const Migrations = artifacts.require("Migrations");
+const X22 = artifacts.require("./X22.sol");
 
 module.exports = function (deployer) {
-  deployer.deploy(Migrations);
+  deployer.deploy(X22);
 };
